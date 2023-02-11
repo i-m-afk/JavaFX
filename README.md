@@ -10,4 +10,4 @@ Scene color is changed to black and exit key combination is set to "q".
 
 ## Output
 
-     ![Output of HelloFX](D:\Programmes\NetBeansProjects\HelloFX\HelloFX.png)
+     ![Output of HelloFX](https://github.com/i-m-afk/JavaFX/blob/main/HelloFX/HelloFX.png?raw=true)

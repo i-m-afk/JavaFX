@@ -31,8 +31,6 @@ public class HelloFX extends Application{
         stage.setFullScreen(true);
         stage.setFullScreenExitHint("Press q to exit");
         stage.setFullScreenExitKeyCombination(KeyCombination.valueOf("q"));
-        
-        
         stage.setScene(scene);
         stage.show();
         

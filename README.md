@@ -1,6 +1,6 @@
 # JavaFX
 
-Learning JavaFX
+Collections of different JavaFX example projects for beginners.
 
 # HelloFX
 

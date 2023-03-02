@@ -27,6 +27,8 @@ public class TicTacToe extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         try {
+            // to run java --module-path D:\Netbeans\javafx\lib --add-modules javafx.controls,javafx.fxml -jar TicTacToe.jar
+
             Parent root = FXMLLoader.load(getClass().getResource("board.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);

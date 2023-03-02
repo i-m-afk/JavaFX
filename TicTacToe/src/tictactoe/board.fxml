@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="578.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe.BoardController">
+   <children>
+      <Separator layoutX="381.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="0.0" />
+      <Separator layoutX="190.0" layoutY="6.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="0.0" />
+      <Separator layoutY="130.0" prefHeight="3.0" prefWidth="578.0" />
+      <Separator layoutY="265.0" prefHeight="3.0" prefWidth="578.0" />
+      <Button fx:id="b11" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButtonClickb11" prefHeight="109.0" prefWidth="170.0" text="Button" />
+      <Button fx:id="b12" layoutX="210.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButtonClickb12" prefHeight="109.0" prefWidth="170.0" text="Button" />
+      <Button fx:id="b13" layoutX="395.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButtonClickb13" prefHeight="109.0" prefWidth="170.0" text="Button" />
+      <Button fx:id="b21" layoutX="14.0" layoutY="145.0" mnemonicParsing="false" onAction="#handleButtonClickb21" prefHeight="109.0" prefWidth="170.0" text="Button" />
+      <Button fx:id="b22" layoutX="210.0" layoutY="145.0" mnemonicParsing="false" onAction="#handleButtonClickb22" prefHeight="109.0" prefWidth="170.0" text="Button" />
+      <Button fx:id="b23" layoutX="395.0" layoutY="145.0" mnemonicParsing="false" onAction="#handleButtonClickb23" prefHeight="109.0" prefWidth="170.0" text="Button" />
+      <Button fx:id="b31" layoutX="14.0" layoutY="276.0" mnemonicParsing="false" onAction="#handleButtonClickb31" prefHeight="109.0" prefWidth="170.0" text="Button" />
+      <Button fx:id="b32" layoutX="210.0" layoutY="276.0" mnemonicParsing="false" onAction="#handleButtonClickb32" prefHeight="109.0" prefWidth="170.0" text="Button" />
+      <Button fx:id="b33" layoutX="395.0" layoutY="276.0" mnemonicParsing="false" onAction="#handleButtonClickb33" prefHeight="109.0" prefWidth="170.0" text="Button" />
+   </children>
+</AnchorPane>
